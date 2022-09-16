@@ -138,24 +138,13 @@
 								<!-- <div class="menu_btn"><span></span><span></span><span></span></div> -->
 								<div class="hm_menu">
 									<ul>
-                                    <li class="active dropdown"><a href="/">home</a></li>
+                                    <li><a href="/">home</a></li>
 										<li><a href="/about">about</a></li>
 										<li><a href="/services">services</a></li>
-										<li><a href="/gallery">gallery</a> </li>
-										<li><a href="blog.html">blog</a>
-											<ul class="sub-menu">
-												<li><a href="blog-two-column.html">blog two column</a></li>
-												<li><a href="blog-three-column.html">blog three column</a></li>
-												<li><a href="blog-single.html">blog single</a></li>
-											</ul>
-										</li>
-										<li><a href="javascript:;">shop</a>
-											<ul class="sub-menu">
-												<li><a href="shop.html">shop</a></li>
-												<li><a href="shop-single.html">shop single</a></li>
-											</ul>
-										</li>
-										<li class="active dropdown"><a href="contact.html">contact</a></li>
+										<li><a href="/gallery">gallery</a></li>
+										<li><a href="/blog">blog</a></li>
+										<li><a href="/shop">shop</a></li>
+										<li><a href="/contact">contact</a></li>ive dropdown"><a href="contact.html">contact</a></li>
 									</ul>
 								</div>
 							</nav>

@@ -38,14 +38,14 @@
     <meta name="author" content="" />
     <meta name="MobileOptimized" content="320">
      <!-- main css -->
-     <link href="{{URL::asset('/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{URL::asset('/css/bootstrap.min.css') }}" rel="stylesheet"> 
     <link href="{{URL::asset('/css/fonts.css') }}" rel="stylesheet">
     <link href="{{URL::asset('/css/font-awesome.css') }}" rel="stylesheet">
     <link href="{{URL::asset('/css/magnific-popup.css') }}" rel="stylesheet">
     <link href="{{URL::asset('/css/custom_animation.css') }}" rel="stylesheet">
     <link href="{{URL::asset('/css/style.css') }}" rel="stylesheet">
-    <link href="{{URL::asset('/css/default.css') }}" rel="stylesheet">
-    <link href="{{URL::asset('/js/plugin/owl/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{URL::asset('/css/default.css') }}" rel="stylesheet"> 
+    <link href="{{URL::asset('/js/plugin/owl/owl.carousel.css') }}" rel="stylesheet">  
     <!-- favicon links-->
     <link href="{{URL::asset('/images/favicon.png') }}" rel="stylesheet">
     
@@ -174,18 +174,12 @@
                                     </div>
                                     <div class="hm_menu">
                                         <ul>
-                                        <li><a href="/">home</a></li>
+                                        <li><a href="/home">home</a></li>
 										<li><a href="/about">about</a></li>
 										<li><a href="/services">services</a></li>
 										<li><a href="/gallery">gallery</a></li>
-										<li><a href="/blog">blog</a></li>
-                                            <li class="dropdown"><a href="javascript:;">shop</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="shop.html">shop</a></li>
-                                                    <li><a href="shop-single.html">shop single</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">contact</a></li>
+										<li><a href="/shop">shop</a></li>
+                                        <li><a href="/contact">contact</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -237,7 +231,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
                             <div class="hm_about_img">
-                                <img src="images/about.jpg" alt="handmade-craft-about" class="img-responsive">
+                                <img src="/images/about.jpg" alt="handmade-craft-about" class="img-responsive">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12">
@@ -1192,7 +1186,7 @@
     <script type="text/javascript" src="{{ URL::asset('/js/plugin/owl/owl.carousel.min.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('/js/jquery.magnific-popup.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('/js/switcher.js') }}"></script>
-    <script type="text/javascript" src="{{ URL::asset('/js/custom.js') }}"></script>
+    
 </body>
 
 </html>

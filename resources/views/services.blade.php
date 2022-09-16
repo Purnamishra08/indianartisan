@@ -139,13 +139,8 @@
 										<li><a href="/services">services</a></li>
 										<li><a href="/gallery">gallery</a></li>
 										<li><a href="/blog">blog</a></li>										
-                                        <li class="dropdown"><a href="javascript:;">shop</a>
-											<ul class="sub-menu">
-												<li><a href="shop.html">shop</a></li>
-												<li><a href="shop-single.html">shop single</a></li>
-											</ul>
-										</li>
-										<li><a href="contact.html">contact</a></li>
+                                        <li><a href="/shop">shop</a></li>
+										<li><a href="/contact">contact</a></li>
 									</ul>
 								</div>
 							</nav>
